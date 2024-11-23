@@ -1,0 +1,3 @@
+function wolves = initializeWolvesWithRRTPaths(rrtPaths)
+    wolves = arrayfun(@(p) createWolves(p), rrtPaths, 'UniformOutput', true);
+end
